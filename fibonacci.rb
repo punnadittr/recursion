@@ -9,5 +9,5 @@ end
 def fib_rec(n)
   return [0] if n == 0
   return [0,1] if n == 1
-  fib_recur(n-1) << fib_recur(n-1)[-1] + fib_recur(n-1)[-2]
+  fib_rec(n-1) << fib_rec(n-1)[-1] + fib_rec(n-1)[-2]
 end
